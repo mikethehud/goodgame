@@ -1,0 +1,11 @@
+{
+  "name": "@goodgame/styleguide",
+  "version": "0.0.0",
+  "dependencies": {
+    "@goodgame/components": "^0.0.0",
+    "@goodgame/styles": "^0.0.0"
+  },
+  "devDependencies": {
+    "react-styleguidist": "^9.0.1"
+  }
+}
