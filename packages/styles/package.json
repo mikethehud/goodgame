@@ -1,8 +1,11 @@
 {
   "name": "@goodgame/styles",
   "version": "0.0.0",
+  "scripts": {
+    "build": "node-sass src/ -o dist/",
+    "build-watch": "node-sass -rw src/ -o dist/"
+  },
   "devDependencies": {
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
+    "node-sass": "^4.11.0"
   }
 }
