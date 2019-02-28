@@ -1,0 +1,15 @@
+{
+  "name": "goodgame",
+  "version": "0.0.1",
+  "description": "GoodGame React Pattern Library for Gaming and Esports",
+  "repository": "https://github.com/mikethehud/goodgame.git",
+  "author": "mikethehud <mike@eben.co.nz>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}

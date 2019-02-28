@@ -1,0 +1,7 @@
+{
+  "name": "@goodgame/components",
+  "version": "0.0.0",
+  "dependencies": {
+    "@goodgame/styles": "^0.0.0"
+  }
+}

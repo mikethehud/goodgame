@@ -1,0 +1,8 @@
+{
+  "name": "@goodgame/styles",
+  "version": "0.0.0",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
