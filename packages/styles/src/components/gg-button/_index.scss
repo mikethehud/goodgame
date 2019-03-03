@@ -1,6 +1,6 @@
-.gg-badge {
+.gg-button {
   background-color: $light-accent;
-  padding: $tiny $small;
+  padding: $small $medium;
   border-radius: $radius;
   text-transform: uppercase;
   @include color-light($smoke);
@@ -10,16 +10,6 @@
   &-primary {
     background-color: $primary;
     color: $primary-contrast;
-  }
-
-  &-notification {
-    background-color: $notification;
-    color: $notification-contrast;
-  }
-
-  &-alert {
-    background-color: $alert;
-    color: $alert-contrast;
   }
 
   &-error {
