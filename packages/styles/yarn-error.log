@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js run build
+
+PATH: 
+  C:\Users\Mike\AppData\Local\Temp\yarn--1551436044393-0.4745452998936597;D:\Projects\goodgame\packages\styles\node_modules\.bin;C:\Users\Mike\AppData\Local\Yarn\Data\link\node_modules\.bin;D:\Projects\goodgame\node_modules\.bin;D:\Projects\goodgame\packages\styles\node_modules\.bin;C:\Users\Mike\AppData\Local\Yarn\Data\link\node_modules\.bin;D:\Projects\goodgame\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\Projects\goodgame\packages\styles\node_modules\.bin;D:\Projects\goodgame\packages\node_modules\.bin;D:\Projects\goodgame\node_modules\.bin;D:\Projects\node_modules\.bin;D:\node_modules\.bin;C:\Program Files\nodejs;C:\Users\Mike\AppData\Local\Temp\yarn--1551436043186-0.6493072170048264;D:\Projects\goodgame\node_modules\.bin;C:\Users\Mike\AppData\Local\Yarn\Data\link\node_modules\.bin;D:\Projects\goodgame\node_modules\.bin;D:\Projects\goodgame\node_modules\.bin;C:\Users\Mike\AppData\Local\Yarn\Data\link\node_modules\.bin;D:\Projects\goodgame\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;D:\Software\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\Mike\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mike\AppData\Local\Programs\Microsoft VS Code\bin;D:\Software\Microsoft VS Code\bin;C:\Users\Mike\AppData\Local\Yarn\bin;C:\Users\Mike\AppData\Roaming\npm
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: package.json: EPIPE: broken pipe, write
+      at Socket._write (internal/net.js:58:25)
+      at doWrite (_stream_writable.js:415:12)
+      at writeOrBuffer (_stream_writable.js:399:5)
+      at Socket.Writable.write (_stream_writable.js:299:11)
+      at ConsoleReporter.warn (C:\Program Files (x86)\Yarn\lib\cli.js:92072:17)
+      at warn (C:\Program Files (x86)\Yarn\lib\cli.js:50464:23)
+      at module.exports.exports.default (C:\Program Files (x86)\Yarn\lib\cli.js:37093:7)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:50475:51
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+
+npm manifest: 
+  {
+    "name": "@goodgame/styles",
+    "version": "0.0.0",
+    "scripts": {
+      "build": "node-sass src/ -o dist/",
+      "watch": "nodemon -e scss -x \"yarn run build\""
+    },
+    "devDependencies": {
+      "@types/react": "^16.8.5",
+      "node-sass": "^4.11.0",
+      "nodemon": "^1.18.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

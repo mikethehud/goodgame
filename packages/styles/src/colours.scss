@@ -1,0 +1,20 @@
+$smoke: #09080A;
+$light: #FFFFFF;
+$light-accent: #7CFEF0;
+$primary: #3F7F66;
+$notification: #B39C4D;
+$alert: #274C77;
+$error: #F85A3E;
+
+$primary-contrast: $light;
+$notification-contrast: $light;
+$alert-contrast: $light;
+$error-contrast: $light;
+
+@mixin color-light($font) {
+  color: rgba($font,0.7);
+}
+
+@mixin color-lighter($font) {
+  color: rgba($font,0.3);
+}

@@ -1,0 +1,29 @@
+.gg-badge {
+  background-color: $light-accent;
+  padding: .2rem .4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  @include color-light($smoke);
+  font-size: .75rem;
+  font-weight: 700;
+
+  &-primary {
+    background-color: $primary;
+    color: $primary-contrast;
+  }
+
+  &-notification {
+    background-color: $notification;
+    color: $notification-contrast;
+  }
+
+  &-alert {
+    background-color: $alert;
+    color: $alert-contrast;
+  }
+
+  &-error {
+    background-color: $error;
+    color: $error-contrast;
+  }
+}

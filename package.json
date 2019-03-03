@@ -11,5 +11,9 @@
   ],
   "devDependencies": {
     "lerna": "^3.13.1"
+  },
+  "scripts": {
+    "watch": "lerna run watch --parallel",
+    "build": "lerna run build --parallel"
   }
 }

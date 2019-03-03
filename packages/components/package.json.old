@@ -2,17 +2,13 @@
   "name": "@goodgame/components",
   "version": "0.0.0",
   "dependencies": {
-    "@types/classnames": "^2.2.7",
     "@types/jest": "24.0.9",
     "@types/node": "11.9.5",
     "@types/react": "16.8.5",
     "@types/react-dom": "16.8.2",
-    "classnames": "^2.2.6",
     "react": "^16.8.3",
-    "react-docgen-typescript": "^1.12.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
-    "react-styleguidist": "^9.0.1",
     "typescript": "3.3.3333"
   },
   "eslintConfig": {
@@ -23,9 +19,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "scripts": {
-    "watch": "styleguidist server",
-    "build": "styleguidist build"
-  }
+  ]
 }

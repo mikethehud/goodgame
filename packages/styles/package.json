@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "build": "node-sass src/ -o dist/",
-    "build-watch": "node-sass -rw src/ -o dist/"
+    "watch": "nodemon -e scss -x \"yarn run build\""
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "@types/react": "^16.8.5",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
   }
 }
